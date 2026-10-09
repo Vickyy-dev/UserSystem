@@ -42,6 +42,10 @@
             font-weight: 700;
         }
 
+        section {
+            margin-bottom: 1.5rem;
+        }
+
         .form-control,
         .form-select {
             min-height: 2.9rem;
@@ -118,6 +122,11 @@
                                 <input type="text" class="form-control" id="numero" name="numero"
                                     placeholder="Ex.: 123" inputmode="numeric" autocomplete="address-line2" required>
                             </div>
+                            <div class="col-md-4 col-lg-2">
+                                <label for="complemento" class="form-label required">complemento</label>
+                                <input type="text" class="form-control" id="complemento" name="complemento"
+                                    placeholder="Ex.: 123" inputmode="numeric" autocomplete="address-line2">
+                            </div>
                             <div class="col-md-6 col-lg-4">
                                 <label for="bairro" class="form-label required">Bairro</label>
                                 <input type="text" class="form-control" id="bairro" name="bairro"
@@ -144,7 +153,6 @@
             </div>
         </div>
     </main>
-
     <script src="script.js" defer></script>
 </body>
 </html>
